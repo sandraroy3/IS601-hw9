@@ -67,6 +67,6 @@ jobs:
         uses: aquasecurity/trivy-action@master
         with:
           scan-type: image
-          image-ref: devops_demo:latest
+          image-ref: sandraroy3/devops_demo:latest
           format: table
           exit-code: 0
